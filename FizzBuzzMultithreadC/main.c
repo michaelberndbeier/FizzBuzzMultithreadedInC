@@ -45,6 +45,7 @@ void process(struct fizzBuzzProcessSettings settings)
 	int z = settings.start;
 	for(z = 1;z<settings.excludeUpperBound;z+=settings.incrementSize) fizzBuzzEval(z);
 	
+	printf("ist huebsch\n");
 	printf("%l interval done\n", settings.id);
 }
 
